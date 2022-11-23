@@ -6,7 +6,7 @@ int rows = int.Parse(Console.ReadLine());
 Console.Write("Введите колличество колонок: ");
 int columns = int.Parse(Console.ReadLine());
 
-double[,] matrixFyrst = new double[rows, columns];
+double[,] matrixFirst = new double[rows, columns];
 
 void FillMatrix(double[,] matrix)
 {
@@ -32,5 +32,5 @@ void PrintMatrix(double[,] matrix)
     }
 }
 
-FillMatrix(matrixFyrst);
-PrintMatrix(matrixFyrst);
+FillMatrix(matrixFirst);
+PrintMatrix(matrixFirst);
